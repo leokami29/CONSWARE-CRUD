@@ -29,7 +29,7 @@ const Show = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    { Platos.map( (Plato) => (
+                    { Platos?.map( (Plato) => (
                         <tr key={Plato.id}>
                             <td>{Plato.nombre}</td>
                             <td>{Plato.Precio}</td>
